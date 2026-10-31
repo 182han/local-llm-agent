@@ -1,0 +1,45 @@
+{
+  "places": 8,
+  "attempts": 1,
+  "first_attempt_json_ok": true,
+  "tok_per_s": 9.18,
+  "ttft_s": 48.35193705558777,
+  "total_tokens": 838,
+  "wall_s": 91.27,
+  "quality": {
+    "attempts": 1,
+    "raw_json_parse_ok_first": true,
+    "raw_json_parse_ok_any": true,
+    "repairs_used": [],
+    "schema_mode_used": "schema",
+    "places_final": 8,
+    "coord_cluster_radius_km": 2.924,
+    "coord_spread_km": 4.811,
+    "distance_to_sias_km_min": 0.0,
+    "distance_to_sias_km_max": 3.326,
+    "distance_to_sias_km_mean": 1.36,
+    "categories": [
+      "government",
+      "hospital",
+      "museum",
+      "park",
+      "shopping",
+      "transport",
+      "university"
+    ],
+    "bilingual_name_coverage": 1.0,
+    "min_description_chars": 82
+  },
+  "attempt_detail": [
+    {
+      "round": 0,
+      "mode": "schema",
+      "json_ok": true,
+      "repairs": [],
+      "parsed": 8,
+      "valid": 8,
+      "errors": [],
+      "tok_per_s": 19.53
+    }
+  ]
+}

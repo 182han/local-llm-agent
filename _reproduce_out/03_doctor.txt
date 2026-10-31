@@ -1,0 +1,14 @@
+{
+  "host": "http://127.0.0.1:11434",
+  "reachable": true,
+  "version": "0.40.3",
+  "models": [
+    "gemma4-e2b-q8:latest",
+    "qwen3-4b-q4km:latest",
+    "gemma4-e2b-q4km:latest",
+    "c4c-qwen3-4b:latest",
+    "qwen3-4b-instruct:local"
+  ]
+}
+
+model 'gemma4-e2b-q4km': FOUND

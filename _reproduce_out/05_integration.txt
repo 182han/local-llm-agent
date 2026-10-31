@@ -1,0 +1,42 @@
+==========================================================================
+INTEGRATION TESTS  model=gemma4-e2b-q4km  host=http://127.0.0.1:11434
+==========================================================================
+  ollama version: 0.40.3
+  models present: ['gemma4-e2b-q8:latest', 'qwen3-4b-q4km:latest', 'gemma4-e2b-q4km:latest', 'c4c-qwen3-4b:latest', 'qwen3-4b-instruct:local']
+
+[1] model metadata
+      family=gemma4 params=4.6B quant=Q4_K_M caps=['completion', 'tools', 'thinking']
+  PASS  server reports the quantisation level  — Q4_K_M
+  PASS  model advertises the 'tools' capability  — capabilities=['completion', 'tools', 'thinking']
+
+[2] basic chat (Level 1 evidence)
+      39 tokens, 14.95 tok/s, ttft=56.294s
+      reply: SIAS University (郑州西亚斯学院) is a private university located in Zhengzhou, China. It offers a range of academic programs and aims to provide quality education to its students.
+  PASS  model returns a non-trivial text answer  — 172 chars
+
+[3] structured JSON generation (path A), target 8 places
+  [round 0] mode=schema ...
+  [round 0] OK: 8 places, 19.5 tok/s
+      accepted 8 places in 1 attempt(s); first-attempt JSON valid = True
+      838 tokens, 9.18 tok/s aggregate, wall 91.3s
+  PASS  model produced at least one fully valid place  — 8 valid
+  PASS  at least 5 valid places (CHALLENGE Level 2 minimum)  — 8
+  PASS  first attempt was already valid JSON  — clean
+
+[4] map rendering
+      /Users/zhanghao/Desktop/赵怡涵_C4D_提交包/_reproduce_out/integration/integration_map.html (181804 bytes, 8 markers)
+  PASS  self-contained HTML written  — 181804 bytes
+  PASS  Leaflet inlined, no external <link>/<script src>
+  PASS  marker payload embedded exactly once
+
+[5] native tool-calling loop (path B)
+  [step 1/14] calling model ...
+  [step 1] 10 tok, 22.9 tok/s, 1 tool call(s)
+      -> list_anchors({})
+  [step 2/14] calling model ...
+  [step 2] 51 tok, 28.7 tok/s, 1 tool call(s)
+      -> validate_location({"lat": 34.4028438, "lon": 113.7593507, "name": "SIAS University", "radius_km": 30})
+  [step 3/14] calling model ...
+  [step 3] 51 tok, 36.0 tok/s, 1 tool call(s)
+      -> validate_location({"lat": 34.3917856, "lon": 113.7549639, "name": "郑风苑", "radius_km": 30})
+  [step 4/14] calling model ...

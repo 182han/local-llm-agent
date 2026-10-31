@@ -1,0 +1,115 @@
+{
+  "places": [
+    {
+      "name": "SIAS University",
+      "name_zh": "西亚斯学院",
+      "lat": 34.403,
+      "lon": 113.7585,
+      "description": "This is the central institution, SIAS University, which is the focus of the search area. (Coordinates are estimated, may vary slightly).",
+      "category": "university",
+      "distance_to_sias_km": 0.08
+    },
+    {
+      "name": "Xinzheng Railway Station",
+      "name_zh": "新郑站",
+      "lat": 34.4015,
+      "lon": 113.755,
+      "description": "The main railway station in Xinzheng city, serving as a key transport hub for the region. (Coordinates are estimated, may vary slightly).",
+      "category": "transport",
+      "distance_to_sias_km": 0.426
+    },
+    {
+      "name": "Xinzheng City Museum",
+      "name_zh": "新郑市博物馆",
+      "lat": 34.4055,
+      "lon": 113.761,
+      "description": "A local museum showcasing the history and cultural heritage of Xinzheng City. (Coordinates are estimated, may vary slightly).",
+      "category": "museum",
+      "distance_to_sias_km": 0.332
+    },
+    {
+      "name": "Xinzheng Central Park",
+      "name_zh": "新郑中央公园",
+      "lat": 34.3985,
+      "lon": 113.765,
+      "description": "A prominent green space within the city, offering recreational areas for local residents. (Coordinates are estimated, may vary slightly).",
+      "category": "park",
+      "distance_to_sias_km": 0.708
+    },
+    {
+      "name": "Henan Provincial Government Building",
+      "name_zh": "河南省政府办公厅",
+      "lat": 34.415,
+      "lon": 113.75,
+      "description": "The administrative center for the Henan Province, located relatively close to the university area. (Coordinates are estimated, may vary slightly).",
+      "category": "government",
+      "distance_to_sias_km": 1.601
+    },
+    {
+      "name": "Local Food Market Area",
+      "name_zh": "本地菜市场",
+      "lat": 34.395,
+      "lon": 113.7535,
+      "description": "A busy local market area where residents purchase daily fresh produce and local goods. (Coordinates are estimated, may vary slightly).",
+      "category": "food",
+      "distance_to_sias_km": 1.024
+    },
+    {
+      "name": "Zhongyuan Road Area",
+      "name_zh": "中原路区域",
+      "lat": 34.4,
+      "lon": 113.76,
+      "description": "A significant local road network area near the university campus, important for local traffic flow. (Coordinates are estimated, may vary slightly).",
+      "category": "other",
+      "distance_to_sias_km": 0.322
+    }
+  ],
+  "attempts": [
+    {
+      "round": 0,
+      "mode": "schema",
+      "raw_text": "{\n  \"places\": [\n    {\n      \"name\": \"SIAS University\",\n      \"name_zh\": \"西亚斯学院\",\n      \"lat\": 34.403000,\n      \"lon\": 113.758500,\n      \"category\": \"university\",\n      \"description\": \"This is the central institution, SIAS University, which is the focus of the search area. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Xinzheng Railway Station\",\n      \"name_zh\": \"新郑站\",\n      \"lat\": 34.401500,\n      \"lon\": 113.755000,\n      \"category\": \"transport\",\n      \"description\": \"The main railway station in Xinzheng city, serving as a key transport hub for the region. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Xinzheng City Museum\",\n      \"name_zh\": \"新郑市博物馆\",\n      \"lat\": 34.405500,\n      \"lon\": 113.761000,\n      \"category\": \"museum\",\n      \"description\": \"A local museum showcasing the history and cultural heritage of Xinzheng City. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Xinzheng Central Park\",\n      \"name_zh\": \"新郑中央公园\",\n      \"lat\": 34.398500,\n      \"lon\": 113.765000,\n      \"category\": \"park\",\n      \"description\": \"A prominent green space within the city, offering recreational areas for local residents. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Henan Provincial Government Building\",\n      \"name_zh\": \"河南省政府办公厅\",\n      \"lat\": 34.415000,\n      \"lon\": 113.750000,\n      \"category\": \"government\",\n      \"description\": \"The administrative center for the Henan Province, located relatively close to the university area. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Local Food Market Area\",\n      \"name_zh\": \"本地菜市场\",\n      \"lat\": 34.395000,\n      \"lon\": 113.753500,\n      \"category\": \"food\",\n      \"description\": \"A busy local market area where residents purchase daily fresh produce and local goods. (Coordinates are estimated, may vary slightly).\"\n    },\n    {\n      \"name\": \"Zhongyuan Road Area\",\n      \"name_zh\": \"中原路区域\",\n      \"lat\": 34.400000,\n      \"lon\": 113.760000,\n      \"category\": \"other\",\n      \"description\": \"A significant local road network area near the university campus, important for local traffic flow. (Coordinates are estimated, may vary slightly).\"\n    }\n  ]\n}",
+      "json_ok": true,
+      "json_repairs": [],
+      "places_parsed": 7,
+      "places_valid": 7,
+      "field_errors": [],
+      "metrics": {
+        "model": "gemma4-e2b-q8",
+        "eval_count": 734,
+        "prompt_eval_count": 869,
+        "tok_per_s": 23.8,
+        "prompt_tok_per_s": 7072.11,
+        "ttft_s": 0.1362,
+        "wall_time_s": 30.976,
+        "load_time_s": 0.005,
+        "total_duration_s": 30.976
+      }
+    }
+  ],
+  "quality": {
+    "attempts": 1,
+    "raw_json_parse_ok_first": true,
+    "raw_json_parse_ok_any": true,
+    "repairs_used": [],
+    "schema_mode_used": "schema",
+    "places_final": 7,
+    "coord_cluster_radius_km": 1.54,
+    "coord_spread_km": 2.293,
+    "distance_to_sias_km_min": 0.08,
+    "distance_to_sias_km_max": 1.601,
+    "distance_to_sias_km_mean": 0.642,
+    "categories": [
+      "food",
+      "government",
+      "museum",
+      "other",
+      "park",
+      "transport",
+      "university"
+    ],
+    "bilingual_name_coverage": 1.0,
+    "min_description_chars": 125
+  },
+  "model": "gemma4-e2b-q8"
+}

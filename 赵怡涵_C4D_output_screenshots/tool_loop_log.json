@@ -1,0 +1,1069 @@
+{
+  "transcript": [
+    {
+      "step": 1,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_8lpefjhw",
+          "function": {
+            "index": 0,
+            "name": "list_anchors",
+            "arguments": {}
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 10,
+        "prompt_eval_count": 1490,
+        "tok_per_s": 19.63,
+        "prompt_tok_per_s": 266.65,
+        "ttft_s": null,
+        "wall_time_s": 6.164,
+        "load_time_s": 0.009,
+        "total_duration_s": 6.162
+      }
+    },
+    {
+      "step": 2,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_33oxnxlx",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.4028438,
+              "lon": 113.7593507,
+              "name": "SIAS University",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 51,
+        "prompt_eval_count": 2060,
+        "tok_per_s": 17.31,
+        "prompt_tok_per_s": 879.76,
+        "ttft_s": null,
+        "wall_time_s": 5.317,
+        "load_time_s": 0.007,
+        "total_duration_s": 5.316
+      }
+    },
+    {
+      "step": 3,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_4ag1a65y",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.3971133,
+              "lon": 113.7336778,
+              "name": "新郑市",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 51,
+        "prompt_eval_count": 2258,
+        "tok_per_s": 16.52,
+        "prompt_tok_per_s": 2476.5,
+        "ttft_s": null,
+        "wall_time_s": 4.038,
+        "load_time_s": 0.007,
+        "total_duration_s": 4.037
+      }
+    },
+    {
+      "step": 4,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_bykjqgzf",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.3978633,
+              "lon": 113.7340052,
+              "name": "新郑市人民政府",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 52,
+        "prompt_eval_count": 2459,
+        "tok_per_s": 16.82,
+        "prompt_tok_per_s": 2797.84,
+        "ttft_s": null,
+        "wall_time_s": 4.014,
+        "load_time_s": 0.006,
+        "total_duration_s": 4.012
+      }
+    },
+    {
+      "step": 5,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_19khrw3y",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.3917856,
+              "lon": 113.7549639,
+              "name": "郑风苑",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 51,
+        "prompt_eval_count": 2663,
+        "tok_per_s": 17.61,
+        "prompt_tok_per_s": 2817.91,
+        "ttft_s": null,
+        "wall_time_s": 3.887,
+        "load_time_s": 0.005,
+        "total_duration_s": 3.886
+      }
+    },
+    {
+      "step": 6,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_qpmqn05b",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.4013564,
+              "lon": 113.7164973,
+              "name": "新郑博物馆",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 51,
+        "prompt_eval_count": 2864,
+        "tok_per_s": 17.2,
+        "prompt_tok_per_s": 3029.26,
+        "ttft_s": null,
+        "wall_time_s": 3.961,
+        "load_time_s": 0.005,
+        "total_duration_s": 3.959
+      }
+    },
+    {
+      "step": 7,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_eqwtfunw",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.4106522,
+              "lon": 113.7592503,
+              "name": "河南省新郑市第一中学",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 54,
+        "prompt_eval_count": 3065,
+        "tok_per_s": 16.5,
+        "prompt_tok_per_s": 3339.05,
+        "ttft_s": null,
+        "wall_time_s": 4.244,
+        "load_time_s": 0.013,
+        "total_duration_s": 4.242
+      }
+    },
+    {
+      "step": 8,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_xv22s4sf",
+          "function": {
+            "index": 0,
+            "name": "validate_location",
+            "arguments": {
+              "lat": 34.4115102,
+              "lon": 113.7674031,
+              "name": "新郑市人民医院",
+              "radius_km": 30
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 53,
+        "prompt_eval_count": 3274,
+        "tok_per_s": 16.37,
+        "prompt_tok_per_s": 3479.22,
+        "ttft_s": null,
+        "wall_time_s": 4.226,
+        "load_time_s": 0.007,
+        "total_duration_s": 4.224
+      }
+    },
+    {
+      "step": 9,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_9rh257tw",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "university",
+              "lat": 34.4028438,
+              "lon": 113.7593507,
+              "name": "SIAS University",
+              "name_zh": "郑州西亚斯学院",
+              "description": "中国郑州西亚斯学院，位于河南省新郑市，是重要的高等教育机构。"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 88,
+        "prompt_eval_count": 3481,
+        "tok_per_s": 16.02,
+        "prompt_tok_per_s": 3741.83,
+        "ttft_s": null,
+        "wall_time_s": 6.471,
+        "load_time_s": 0.006,
+        "total_duration_s": 6.468
+      }
+    },
+    {
+      "step": 10,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_uqgp202g",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "government",
+              "description": "新郑市人民政府，是新郑市的行政管理中心，负责区域的公共事务管理。",
+              "lat": 34.3978633,
+              "lon": 113.7340052,
+              "name": "Xinzheng Municipal People's Government",
+              "name_zh": "新郑市人民政府"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 94,
+        "prompt_eval_count": 3623,
+        "tok_per_s": 16.28,
+        "prompt_tok_per_s": 4556.1,
+        "ttft_s": null,
+        "wall_time_s": 6.623,
+        "load_time_s": 0.005,
+        "total_duration_s": 6.621
+      }
+    },
+    {
+      "step": 11,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_81vvf9ji",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "park",
+              "description": "郑风苑是一个城市公园，为市民提供休闲娱乐和户外活动的空间。",
+              "lat": 34.3917856,
+              "lon": 113.7549639,
+              "name": "Zhengfengyuan Park",
+              "name_zh": "郑风苑"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 86,
+        "prompt_eval_count": 3775,
+        "tok_per_s": 16.48,
+        "prompt_tok_per_s": 8052.25,
+        "ttft_s": null,
+        "wall_time_s": 5.74,
+        "load_time_s": 0.007,
+        "total_duration_s": 5.738
+      }
+    },
+    {
+      "step": 12,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_9o9p9nuc",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "museum",
+              "description": "新郑博物馆是文化展示中心，收藏了当地的历史文物和文化艺术品。",
+              "lat": 34.4013564,
+              "lon": 113.7164973,
+              "name": "Xinzheng Museum",
+              "name_zh": "新郑博物馆"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 86,
+        "prompt_eval_count": 3916,
+        "tok_per_s": 16.55,
+        "prompt_tok_per_s": 8395.13,
+        "ttft_s": null,
+        "wall_time_s": 5.714,
+        "load_time_s": 0.005,
+        "total_duration_s": 5.712
+      }
+    },
+    {
+      "step": 13,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_wymazxhy",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "school",
+              "description": "河南省新郑市第一中学是当地的一所重点中学，为学生提供优质的教育资源。",
+              "lat": 34.4106522,
+              "lon": 113.7592503,
+              "name": "Henan No. 1 Middle School",
+              "name_zh": "河南省新郑市第一中学"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 96,
+        "prompt_eval_count": 4056,
+        "tok_per_s": 16.51,
+        "prompt_tok_per_s": 7992.35,
+        "ttft_s": null,
+        "wall_time_s": 6.37,
+        "load_time_s": 0.005,
+        "total_duration_s": 6.369
+      }
+    },
+    {
+      "step": 14,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_ig5iue70",
+          "function": {
+            "index": 0,
+            "name": "add_map_marker",
+            "arguments": {
+              "category": "hospital",
+              "description": "新郑市人民医院是当地的医疗机构，为市民提供及时的医疗服务。",
+              "lat": 34.4115102,
+              "lon": 113.7674031,
+              "name": "Xinzheng People's Hospital",
+              "name_zh": "新郑市人民医院"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 92,
+        "prompt_eval_count": 4210,
+        "tok_per_s": 16.79,
+        "prompt_tok_per_s": 8984.57,
+        "ttft_s": null,
+        "wall_time_s": 5.998,
+        "load_time_s": 0.006,
+        "total_duration_s": 5.995
+      }
+    },
+    {
+      "step": 15,
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_f23ltfq2",
+          "function": {
+            "index": 0,
+            "name": "render_map",
+            "arguments": {
+              "center_lat": 34.4028438,
+              "center_lon": 113.7593507,
+              "output_path": "/Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html",
+              "title": "Map of SIAS University Area"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 88,
+        "prompt_eval_count": 4359,
+        "tok_per_s": 17.08,
+        "prompt_tok_per_s": 9268.51,
+        "ttft_s": null,
+        "wall_time_s": 5.681,
+        "load_time_s": 0.01,
+        "total_duration_s": 5.678
+      }
+    },
+    {
+      "step": 16,
+      "role": "assistant",
+      "content": "Map built successfully.\nSummary: 6 markers were added, 6 were verified, and the map is available at /Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html.",
+      "tool_calls": [],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 56,
+        "prompt_eval_count": 4521,
+        "tok_per_s": 16.26,
+        "prompt_tok_per_s": 7940.82,
+        "ttft_s": 0.6356,
+        "wall_time_s": 4.082,
+        "load_time_s": 0.008,
+        "total_duration_s": 4.079
+      }
+    }
+  ],
+  "tool_calls": [
+    {
+      "step": 1,
+      "name": "list_anchors",
+      "arguments": {},
+      "result": {
+        "count": 10,
+        "anchors": [
+          {
+            "name_zh": "郑州西亚斯学院",
+            "lat": 34.4028438,
+            "lon": 113.7593507,
+            "kind": "university"
+          },
+          {
+            "name_zh": "SIAS University",
+            "lat": 34.4028438,
+            "lon": 113.7593507,
+            "kind": "university"
+          },
+          {
+            "name_zh": "新郑市",
+            "lat": 34.3971133,
+            "lon": 113.7336778,
+            "kind": "city"
+          },
+          {
+            "name_zh": "新郑市人民政府",
+            "lat": 34.3978633,
+            "lon": 113.7340052,
+            "kind": "government"
+          },
+          {
+            "name_zh": "郑风苑",
+            "lat": 34.3917856,
+            "lon": 113.7549639,
+            "kind": "park"
+          },
+          {
+            "name_zh": "新郑博物馆",
+            "lat": 34.4013564,
+            "lon": 113.7164973,
+            "kind": "museum"
+          },
+          {
+            "name_zh": "河南省新郑市第一中学",
+            "lat": 34.4106522,
+            "lon": 113.7592503,
+            "kind": "school"
+          },
+          {
+            "name_zh": "新郑市人民医院",
+            "lat": 34.4115102,
+            "lon": 113.7674031,
+            "kind": "hospital"
+          },
+          {
+            "name_zh": "新郑站",
+            "lat": 34.3835787,
+            "lon": 113.7692387,
+            "kind": "railway"
+          },
+          {
+            "name_zh": "新郑龙湖城市湿地公园",
+            "lat": 34.625089,
+            "lon": 113.7071773,
+            "kind": "park"
+          }
+        ],
+        "source": "OpenStreetMap via Nominatim (ODbL)",
+        "note": "These are independently verified. Prefer mapping these real landmarks over guessed ones. You may also add other places you are confident about — they will be badged 'model'."
+      }
+    },
+    {
+      "step": 2,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.4028438,
+        "lon": 113.7593507,
+        "name": "SIAS University",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "SIAS University",
+        "lat": 34.4028438,
+        "lon": 113.7593507,
+        "distance_to_sias_m": 0.0,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "SIAS University",
+          "anchor_lat": 34.4028438,
+          "anchor_lon": 113.7593507,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 3,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.3971133,
+        "lon": 113.7336778,
+        "name": "新郑市",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "新郑市",
+        "lat": 34.3971133,
+        "lon": 113.7336778,
+        "distance_to_sias_m": 2440.1,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "新郑市",
+          "anchor_lat": 34.3971133,
+          "anchor_lon": 113.7336778,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 4,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.3978633,
+        "lon": 113.7340052,
+        "name": "新郑市人民政府",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "新郑市人民政府",
+        "lat": 34.3978633,
+        "lon": 113.7340052,
+        "distance_to_sias_m": 2390.4,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "新郑市人民政府",
+          "anchor_lat": 34.3978633,
+          "anchor_lon": 113.7340052,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 5,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.3917856,
+        "lon": 113.7549639,
+        "name": "郑风苑",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "郑风苑",
+        "lat": 34.3917856,
+        "lon": 113.7549639,
+        "distance_to_sias_m": 1293.8,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "郑风苑",
+          "anchor_lat": 34.3917856,
+          "anchor_lon": 113.7549639,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 6,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.4013564,
+        "lon": 113.7164973,
+        "name": "新郑博物馆",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "新郑博物馆",
+        "lat": 34.4013564,
+        "lon": 113.7164973,
+        "distance_to_sias_m": 3935.1,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "新郑博物馆",
+          "anchor_lat": 34.4013564,
+          "anchor_lon": 113.7164973,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 7,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.4106522,
+        "lon": 113.7592503,
+        "name": "河南省新郑市第一中学",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "河南省新郑市第一中学",
+        "lat": 34.4106522,
+        "lon": 113.7592503,
+        "distance_to_sias_m": 868.3,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "河南省新郑市第一中学",
+          "anchor_lat": 34.4106522,
+          "anchor_lon": 113.7592503,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 8,
+      "name": "validate_location",
+      "arguments": {
+        "lat": 34.4115102,
+        "lon": 113.7674031,
+        "name": "新郑市人民医院",
+        "radius_km": 30
+      },
+      "result": {
+        "valid": true,
+        "name": "新郑市人民医院",
+        "lat": 34.4115102,
+        "lon": 113.7674031,
+        "distance_to_sias_m": 1214.2,
+        "inside_area": true,
+        "radius_km": 30,
+        "anchor_match": {
+          "anchor_name": "新郑市人民医院",
+          "anchor_lat": 34.4115102,
+          "anchor_lon": 113.7674031,
+          "error_m": 0.0
+        }
+      }
+    },
+    {
+      "step": 9,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "university",
+        "lat": 34.4028438,
+        "lon": 113.7593507,
+        "name": "SIAS University",
+        "name_zh": "郑州西亚斯学院",
+        "description": "中国郑州西亚斯学院，位于河南省新郑市，是重要的高等教育机构。"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'SIAS University' (total 1)",
+        "marker_count": 1,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 10,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "government",
+        "description": "新郑市人民政府，是新郑市的行政管理中心，负责区域的公共事务管理。",
+        "lat": 34.3978633,
+        "lon": 113.7340052,
+        "name": "Xinzheng Municipal People's Government",
+        "name_zh": "新郑市人民政府"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'Xinzheng Municipal People's Government' (total 2)",
+        "marker_count": 2,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 11,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "park",
+        "description": "郑风苑是一个城市公园，为市民提供休闲娱乐和户外活动的空间。",
+        "lat": 34.3917856,
+        "lon": 113.7549639,
+        "name": "Zhengfengyuan Park",
+        "name_zh": "郑风苑"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'Zhengfengyuan Park' (total 3)",
+        "marker_count": 3,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 12,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "museum",
+        "description": "新郑博物馆是文化展示中心，收藏了当地的历史文物和文化艺术品。",
+        "lat": 34.4013564,
+        "lon": 113.7164973,
+        "name": "Xinzheng Museum",
+        "name_zh": "新郑博物馆"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'Xinzheng Museum' (total 4)",
+        "marker_count": 4,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 13,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "school",
+        "description": "河南省新郑市第一中学是当地的一所重点中学，为学生提供优质的教育资源。",
+        "lat": 34.4106522,
+        "lon": 113.7592503,
+        "name": "Henan No. 1 Middle School",
+        "name_zh": "河南省新郑市第一中学"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'Henan No. 1 Middle School' (total 5)",
+        "marker_count": 5,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 14,
+      "name": "add_map_marker",
+      "arguments": {
+        "category": "hospital",
+        "description": "新郑市人民医院是当地的医疗机构，为市民提供及时的医疗服务。",
+        "lat": 34.4115102,
+        "lon": 113.7674031,
+        "name": "Xinzheng People's Hospital",
+        "name_zh": "新郑市人民医院"
+      },
+      "result": {
+        "ok": true,
+        "message": "added marker 'Xinzheng People's Hospital' (total 6)",
+        "marker_count": 6,
+        "coordinate_source": "gazetteer"
+      }
+    },
+    {
+      "step": 15,
+      "name": "render_map",
+      "arguments": {
+        "center_lat": 34.4028438,
+        "center_lon": 113.7593507,
+        "output_path": "/Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html",
+        "title": "Map of SIAS University Area"
+      },
+      "result": {
+        "ok": true,
+        "path": "/Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html",
+        "markers": 6,
+        "verified": 6,
+        "bytes": 182570
+      }
+    }
+  ],
+  "steps": 16,
+  "final_text": "Map built successfully.\nSummary: 6 markers were added, 6 were verified, and the map is available at /Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html.",
+  "markers_added": 6,
+  "render_path": "/Users/zhanghao/Desktop/赵怡涵_C4D_提交包/赵怡涵_C4D_map.html",
+  "total_wall_s": 82.84473180770874,
+  "total_tokens": 1059,
+  "tok_per_s": 12.782949221901633,
+  "ttft_s": 0.6356422901153564,
+  "metrics_per_step": [
+    {
+      "step": 1,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 10,
+      "prompt_eval_count": 1490,
+      "tok_per_s": 19.63,
+      "prompt_tok_per_s": 266.65,
+      "ttft_s": null,
+      "wall_time_s": 6.164,
+      "load_time_s": 0.009,
+      "total_duration_s": 6.162
+    },
+    {
+      "step": 2,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 51,
+      "prompt_eval_count": 2060,
+      "tok_per_s": 17.31,
+      "prompt_tok_per_s": 879.76,
+      "ttft_s": null,
+      "wall_time_s": 5.317,
+      "load_time_s": 0.007,
+      "total_duration_s": 5.316
+    },
+    {
+      "step": 3,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 51,
+      "prompt_eval_count": 2258,
+      "tok_per_s": 16.52,
+      "prompt_tok_per_s": 2476.5,
+      "ttft_s": null,
+      "wall_time_s": 4.038,
+      "load_time_s": 0.007,
+      "total_duration_s": 4.037
+    },
+    {
+      "step": 4,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 52,
+      "prompt_eval_count": 2459,
+      "tok_per_s": 16.82,
+      "prompt_tok_per_s": 2797.84,
+      "ttft_s": null,
+      "wall_time_s": 4.014,
+      "load_time_s": 0.006,
+      "total_duration_s": 4.012
+    },
+    {
+      "step": 5,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 51,
+      "prompt_eval_count": 2663,
+      "tok_per_s": 17.61,
+      "prompt_tok_per_s": 2817.91,
+      "ttft_s": null,
+      "wall_time_s": 3.887,
+      "load_time_s": 0.005,
+      "total_duration_s": 3.886
+    },
+    {
+      "step": 6,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 51,
+      "prompt_eval_count": 2864,
+      "tok_per_s": 17.2,
+      "prompt_tok_per_s": 3029.26,
+      "ttft_s": null,
+      "wall_time_s": 3.961,
+      "load_time_s": 0.005,
+      "total_duration_s": 3.959
+    },
+    {
+      "step": 7,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 54,
+      "prompt_eval_count": 3065,
+      "tok_per_s": 16.5,
+      "prompt_tok_per_s": 3339.05,
+      "ttft_s": null,
+      "wall_time_s": 4.244,
+      "load_time_s": 0.013,
+      "total_duration_s": 4.242
+    },
+    {
+      "step": 8,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 53,
+      "prompt_eval_count": 3274,
+      "tok_per_s": 16.37,
+      "prompt_tok_per_s": 3479.22,
+      "ttft_s": null,
+      "wall_time_s": 4.226,
+      "load_time_s": 0.007,
+      "total_duration_s": 4.224
+    },
+    {
+      "step": 9,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 88,
+      "prompt_eval_count": 3481,
+      "tok_per_s": 16.02,
+      "prompt_tok_per_s": 3741.83,
+      "ttft_s": null,
+      "wall_time_s": 6.471,
+      "load_time_s": 0.006,
+      "total_duration_s": 6.468
+    },
+    {
+      "step": 10,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 94,
+      "prompt_eval_count": 3623,
+      "tok_per_s": 16.28,
+      "prompt_tok_per_s": 4556.1,
+      "ttft_s": null,
+      "wall_time_s": 6.623,
+      "load_time_s": 0.005,
+      "total_duration_s": 6.621
+    },
+    {
+      "step": 11,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 86,
+      "prompt_eval_count": 3775,
+      "tok_per_s": 16.48,
+      "prompt_tok_per_s": 8052.25,
+      "ttft_s": null,
+      "wall_time_s": 5.74,
+      "load_time_s": 0.007,
+      "total_duration_s": 5.738
+    },
+    {
+      "step": 12,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 86,
+      "prompt_eval_count": 3916,
+      "tok_per_s": 16.55,
+      "prompt_tok_per_s": 8395.13,
+      "ttft_s": null,
+      "wall_time_s": 5.714,
+      "load_time_s": 0.005,
+      "total_duration_s": 5.712
+    },
+    {
+      "step": 13,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 96,
+      "prompt_eval_count": 4056,
+      "tok_per_s": 16.51,
+      "prompt_tok_per_s": 7992.35,
+      "ttft_s": null,
+      "wall_time_s": 6.37,
+      "load_time_s": 0.005,
+      "total_duration_s": 6.369
+    },
+    {
+      "step": 14,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 92,
+      "prompt_eval_count": 4210,
+      "tok_per_s": 16.79,
+      "prompt_tok_per_s": 8984.57,
+      "ttft_s": null,
+      "wall_time_s": 5.998,
+      "load_time_s": 0.006,
+      "total_duration_s": 5.995
+    },
+    {
+      "step": 15,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 88,
+      "prompt_eval_count": 4359,
+      "tok_per_s": 17.08,
+      "prompt_tok_per_s": 9268.51,
+      "ttft_s": null,
+      "wall_time_s": 5.681,
+      "load_time_s": 0.01,
+      "total_duration_s": 5.678
+    },
+    {
+      "step": 16,
+      "model": "gemma4-e2b-q4km",
+      "eval_count": 56,
+      "prompt_eval_count": 4521,
+      "tok_per_s": 16.26,
+      "prompt_tok_per_s": 7940.82,
+      "ttft_s": 0.6356,
+      "wall_time_s": 4.082,
+      "load_time_s": 0.008,
+      "total_duration_s": 4.079
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+date        : Sat Oct  3 20:06:56 CST 2026
+host        : MacBook-Air.local
+  ProductName:		macOS
+  ProductVersion:		26.2
+  BuildVersion:		25C56
+cpu         : Apple M4
+cores       : 10 physical / 10 logical
+ram         : 16 GiB
+python      : Python 3.9.6
+ollama bin  : /tmp/ollama/ollama

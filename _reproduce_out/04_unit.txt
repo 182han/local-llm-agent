@@ -1,0 +1,49 @@
+  PASS  geo: haversine matches known distance
+  PASS  geo: haversine is zero for identical points
+  PASS  geo: haversine one degree of latitude is ~111 km
+  PASS  geo: valid_latlon rejects out-of-range and non-numeric
+  PASS  geo: centroid / spread / cluster radius
+  PASS  geo: bbox with padding
+  PASS  jsonx: clean JSON needs no repair
+  PASS  jsonx: strips markdown fence and records it
+  PASS  jsonx: trims surrounding prose
+  PASS  jsonx: removes trailing comma
+  PASS  jsonx: converts Python literals
+  PASS  jsonx: single quotes via ast fallback
+  PASS  jsonx: garbage returns None without raising
+  PASS  jsonx: brace inside a string does not fool the slicer
+  PASS  jsonx: coerce_place_list handles all observed shapes
+  PASS  jsonx: normalise_place maps alias field names
+  PASS  tools: registry exposes >= 8 tools with valid schemas
+  PASS  tools: lookup_anchor finds a verified anchor
+  PASS  tools: lookup_anchor misses gracefully
+  PASS  tools: validate_location accepts inside, warns outside
+  PASS  tools: add / list / remove marker round-trip
+  PASS  tools: add_map_marker rejects invalid coordinates
+  PASS  tools: adding the same name updates instead of duplicating
+  PASS  tools: unknown tool returns an error dict, does not raise
+  PASS  tools: bad argument names return an error dict, do not raise
+  PASS  tools: render_map refuses an empty session
+  PASS  tools: device_profile reports real machine facts
+  PASS  validate_places: accepts a good place
+  PASS  validate_places: catches every required-field failure
+  PASS  validate_places: unknown category is coerced, not rejected
+  PASS  place schema is a valid object schema with all required fields
+  PASS  renderer: output is one self-contained HTML file
+  PASS  renderer: popup text is escaped (no raw < in model output)
+  PASS  renderer: refuses an empty marker list
+  PASS  renderer: missing vendored Leaflet produces a clear error
+  PASS  tools: add_map_marker auto-badges an exact anchor match as verified
+  PASS  tools: render_map embeds model/device provenance
+  PASS  tools: list_anchors returns the verified reference set
+  PASS  ground_places: keeps the model coordinate and records the delta
+  PASS  gazetteer: every anchor is inside the map window
+  PASS  gazetteer: anchors carry a provenance string
+  PASS  gazetteer: longest-match wins (新郑市 vs 新郑市人民医院)
+  PASS  bench: prompts are deterministic and non-empty
+  PASS  cli: argparse builds every documented subcommand
+  PASS  session: JSON round-trip preserves markers
+======================================================================
+UNIT TESTS: 45/45 passed, 0 failed
+======================================================================
+ALL UNIT TESTS PASSED

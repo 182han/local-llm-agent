@@ -1,0 +1,36 @@
+# 赵怡涵 C4D · 本地大模型 Agent 技能 — 依赖说明
+#
+# 好消息：本技能包的核心 **没有任何第三方 Python 依赖**。
+# 所有 Python 代码只用标准库（urllib / json / math / subprocess / base64 ...），
+# 这样评审在任何一台装了 Python 3.8+ 的机器上都能直接跑，不需要 pip。
+#
+# Good news: the core of this skill has ZERO third-party Python dependencies.
+# Everything uses the standard library only, so a reviewer can run it on any
+# machine with Python 3.8+ and no pip access at all.
+#
+# ---------------------------------------------------------------------------
+# REQUIRED — system software (not pip packages)
+# ---------------------------------------------------------------------------
+# ollama            >= 0.5      https://ollama.com/download   (tested: 0.40.3)
+# python            >= 3.8      (tested: 3.9.6)
+# curl              any         used only by scripts/*.sh to fetch Leaflet
+#
+# A GGUF model file, e.g.:
+#   unsloth/gemma-4-E2B-it-GGUF -> gemma-4-E2B-it-Q4_K_M.gguf
+#   https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF
+#
+# ---------------------------------------------------------------------------
+# OPTIONAL — only for the tooling in the wider submission package
+# ---------------------------------------------------------------------------
+# Pillow>=10.0        renders the terminal transcript into run_evidence.png
+# pypdf>=5.0          extracts text from the challenge PDFs
+#
+# These are NOT needed to run the agent skill itself.
+#
+# ---------------------------------------------------------------------------
+# VENDORED (already present in agent/vendor/leaflet/, no install needed)
+# ---------------------------------------------------------------------------
+# Leaflet 1.9.4  — BSD-2-Clause — https://leafletjs.com
+#   agent/vendor/leaflet/leaflet.js    sha256 db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a
+#   agent/vendor/leaflet/leaflet.css   sha256 a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6
+#   Re-fetch with: bash scripts/fetch_vendor.sh

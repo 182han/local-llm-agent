@@ -1,0 +1,245 @@
+{
+  "model": "gemma4-e2b-q4km",
+  "ollama_version": "0.40.3",
+  "num_ctx": 8192,
+  "runs": 3,
+  "evicted_before_measurement": [
+    "gemma4-e2b-q8:latest"
+  ],
+  "idle_rss_mb": 27.8,
+  "model_details": {
+    "family": "gemma4",
+    "parameter_size": "4.6B",
+    "quantization_level": "Q4_K_M",
+    "format": "gguf",
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "model_info": {
+      "gemma4.block_count": 35,
+      "gemma4.context_length": 131072,
+      "gemma4.embedding_length": 1536,
+      "gemma4.feed_forward_length": [
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        6144,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288,
+        12288
+      ],
+      "general.parameter_count": 4647450147
+    }
+  },
+  "prompts": {
+    "short": {
+      "runs": [
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 20,
+          "prompt_eval_count": 26,
+          "tok_per_s": 44.16,
+          "prompt_tok_per_s": 298.92,
+          "ttft_s": 0.091,
+          "wall_time_s": 0.544,
+          "load_time_s": 0.002,
+          "total_duration_s": 0.543,
+          "response_chars": 86,
+          "response_head": "SIAS University in Xinzheng, Henan is an educational institution located in that city.",
+          "server_tok_per_s": 44.16,
+          "client_tok_per_s": 36.77
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 20,
+          "prompt_eval_count": 26,
+          "tok_per_s": 37.46,
+          "prompt_tok_per_s": 251.27,
+          "ttft_s": 0.1125,
+          "wall_time_s": 0.647,
+          "load_time_s": 0.006,
+          "total_duration_s": 0.645,
+          "response_chars": 86,
+          "response_head": "SIAS University in Xinzheng, Henan is an educational institution located in that city.",
+          "server_tok_per_s": 37.46,
+          "client_tok_per_s": 30.93
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 20,
+          "prompt_eval_count": 26,
+          "tok_per_s": 28.34,
+          "prompt_tok_per_s": 199.41,
+          "ttft_s": 0.1383,
+          "wall_time_s": 0.844,
+          "load_time_s": 0.004,
+          "total_duration_s": 0.843,
+          "response_chars": 86,
+          "response_head": "SIAS University in Xinzheng, Henan is an educational institution located in that city.",
+          "server_tok_per_s": 28.34,
+          "client_tok_per_s": 23.69
+        }
+      ],
+      "server_tok_per_s_median": 37.46,
+      "client_tok_per_s_median": 30.93,
+      "ttft_s_median": 0.1125,
+      "prompt_tok_per_s_median": 251.27,
+      "eval_tokens_mean": 20
+    },
+    "json": {
+      "runs": [
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 244,
+          "prompt_eval_count": 52,
+          "tok_per_s": 32.32,
+          "prompt_tok_per_s": 136.74,
+          "ttft_s": 0.3915,
+          "wall_time_s": 7.942,
+          "load_time_s": 0.005,
+          "total_duration_s": 7.941,
+          "response_chars": 673,
+          "response_head": "```json [   {     \"name\": \"Henan Provincial Museum\",     \"name_zh\": \"河南省博物馆\",     \"lat\": 34.75,     \"lon\": 112.10,     \"description\": \"A major museum showcasing",
+          "server_tok_per_s": 32.32,
+          "client_tok_per_s": 30.72
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 244,
+          "prompt_eval_count": 52,
+          "tok_per_s": 32.75,
+          "prompt_tok_per_s": 462.43,
+          "ttft_s": 0.1233,
+          "wall_time_s": 7.573,
+          "load_time_s": 0.006,
+          "total_duration_s": 7.572,
+          "response_chars": 673,
+          "response_head": "```json [   {     \"name\": \"Henan Provincial Museum\",     \"name_zh\": \"河南省博物馆\",     \"lat\": 34.75,     \"lon\": 112.10,     \"description\": \"A major museum showcasing",
+          "server_tok_per_s": 32.75,
+          "client_tok_per_s": 32.22
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 244,
+          "prompt_eval_count": 52,
+          "tok_per_s": 32.95,
+          "prompt_tok_per_s": 411.54,
+          "ttft_s": 0.1346,
+          "wall_time_s": 7.541,
+          "load_time_s": 0.004,
+          "total_duration_s": 7.54,
+          "response_chars": 673,
+          "response_head": "```json [   {     \"name\": \"Henan Provincial Museum\",     \"name_zh\": \"河南省博物馆\",     \"lat\": 34.75,     \"lon\": 112.10,     \"description\": \"A major museum showcasing",
+          "server_tok_per_s": 32.95,
+          "client_tok_per_s": 32.36
+        }
+      ],
+      "server_tok_per_s_median": 32.75,
+      "client_tok_per_s_median": 32.22,
+      "ttft_s_median": 0.1346,
+      "prompt_tok_per_s_median": 411.54,
+      "eval_tokens_mean": 244
+    },
+    "long": {
+      "runs": [
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 167,
+          "prompt_eval_count": 59,
+          "tok_per_s": 32.44,
+          "prompt_tok_per_s": 204.32,
+          "ttft_s": 0.3008,
+          "wall_time_s": 5.449,
+          "load_time_s": 0.006,
+          "total_duration_s": 5.448,
+          "response_chars": 923,
+          "response_head": "Xinzheng City, located in Henan Province, China, possesses a rich historical legacy as a significant ancient capital. It served as the seat of power for both th",
+          "server_tok_per_s": 32.44,
+          "client_tok_per_s": 30.65
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 167,
+          "prompt_eval_count": 59,
+          "tok_per_s": 33.23,
+          "prompt_tok_per_s": 491.52,
+          "ttft_s": 0.1295,
+          "wall_time_s": 5.155,
+          "load_time_s": 0.004,
+          "total_duration_s": 5.154,
+          "response_chars": 923,
+          "response_head": "Xinzheng City, located in Henan Province, China, possesses a rich historical legacy as a significant ancient capital. It served as the seat of power for both th",
+          "server_tok_per_s": 33.23,
+          "client_tok_per_s": 32.39
+        },
+        {
+          "model": "gemma4-e2b-q4km",
+          "eval_count": 167,
+          "prompt_eval_count": 59,
+          "tok_per_s": 34.37,
+          "prompt_tok_per_s": 450.61,
+          "ttft_s": 0.1389,
+          "wall_time_s": 4.997,
+          "load_time_s": 0.004,
+          "total_duration_s": 4.996,
+          "response_chars": 923,
+          "response_head": "Xinzheng City, located in Henan Province, China, possesses a rich historical legacy as a significant ancient capital. It served as the seat of power for both th",
+          "server_tok_per_s": 34.37,
+          "client_tok_per_s": 33.42
+        }
+      ],
+      "server_tok_per_s_median": 33.23,
+      "client_tok_per_s_median": 32.39,
+      "ttft_s_median": 0.1389,
+      "prompt_tok_per_s_median": 450.61,
+      "eval_tokens_mean": 167
+    }
+  },
+  "cold_load_time_s": 4.368621826171875,
+  "cold_load_server_s": 3.85,
+  "loaded_rss_mb": 3197.5,
+  "loaded_models": [
+    {
+      "name": "gemma4-e2b-q4km:latest",
+      "size_bytes": 3385610731,
+      "size_gb": 3.15,
+      "size_vram_bytes": 3385610731,
+      "size_vram_gb": 3.15,
+      "context_length": 8192,
+      "quantization": "Q4_K_M",
+      "parameter_size": "4.6B",
+      "family": "gemma4"
+    }
+  ],
+  "memory_delta_mb": 3169.7
+}

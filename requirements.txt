@@ -1,0 +1,30 @@
+# 赵怡涵 C4D · 本地大模型 Agent 技能 — 依赖说明
+#
+# 核心：**零第三方 Python 依赖**。所有代码只用标准库
+#       （urllib / json / math / subprocess / base64 / hashlib / threading），
+#       在 Python 3.8+ 上可直接运行，不需要 pip。
+#
+# ---------------------------------------------------------------------------
+# 必需 — 系统软件（不是 pip 包）
+# ---------------------------------------------------------------------------
+# ollama   >= 0.5    https://ollama.com/download        （实测 0.40.3）
+# python   >= 3.8                                        （实测 3.9.6）
+# curl     any       仅 scripts/*.sh 用来拉取 Leaflet
+#
+# 模型权重（GGUF），二选一：
+#   python3 scripts/download_model.py --preset e2b-q4km --out /tmp/dl   （主用，2.89 GiB）
+#   python3 scripts/download_model.py --preset e2b-q8   --out /tmp/dl   （量化对照，4.70 GiB）
+#
+# ---------------------------------------------------------------------------
+# 可选 — 仅本交付包的取证/评估脚本需要，运行 Agent 技能本身不需要
+# ---------------------------------------------------------------------------
+# Pillow>=10.0    scripts/make_evidence.py 渲染终端实录 PNG（实测 10.4.0）
+# pypdf>=5.0      抽取挑战 PDF 文本（实测 5.1.0）
+#
+# ---------------------------------------------------------------------------
+# 已 vendored（无需安装，校验和见下）
+# ---------------------------------------------------------------------------
+# Leaflet 1.9.4 — BSD-2-Clause — 赵怡涵_C4D_agent-skill/agent/vendor/leaflet/
+#   leaflet.js   sha256 db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a
+#   leaflet.css  sha256 a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6
+#   重新拉取: bash 赵怡涵_C4D_agent-skill/scripts/fetch_vendor.sh

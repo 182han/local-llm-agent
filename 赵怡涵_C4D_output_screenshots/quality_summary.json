@@ -1,0 +1,146 @@
+[
+  {
+    "file": "quality_q4_run1.json",
+    "model": "gemma4-e2b-q4km",
+    "places": 8,
+    "attempts": 1,
+    "json_ok_first_attempt": true,
+    "json_ok_any_attempt": true,
+    "repairs_applied": [],
+    "instruction_following": {
+      "bilingual_both_names": "8/8",
+      "name_zh_is_chinese": "8/8",
+      "name_is_latin": "8/8",
+      "description_min_20_chars": "8/8",
+      "valid_category": "8/8",
+      "six_decimal_coords": "1/8",
+      "unique_coordinates": "8/8",
+      "no_placeholder_names": "7/8"
+    },
+    "coordinate_plausibility": {
+      "inside_window": "8/8",
+      "distance_to_centre_km_min": 0.0,
+      "distance_to_centre_km_mean": 1.531,
+      "distance_to_centre_km_max": 3.653,
+      "pairwise_spread_km": 6.269
+    },
+    "anchor_hit_rate": "2/8",
+    "description_chars": {
+      "min": 88,
+      "mean": 120.2
+    },
+    "performance": {
+      "tok_per_s": 31.73,
+      "ttft_s": 3.2887,
+      "eval_count": 798
+    }
+  },
+  {
+    "file": "quality_q4_run2.json",
+    "model": "gemma4-e2b-q4km",
+    "places": 8,
+    "attempts": 1,
+    "json_ok_first_attempt": true,
+    "json_ok_any_attempt": true,
+    "repairs_applied": [],
+    "instruction_following": {
+      "bilingual_both_names": "8/8",
+      "name_zh_is_chinese": "8/8",
+      "name_is_latin": "8/8",
+      "description_min_20_chars": "8/8",
+      "valid_category": "8/8",
+      "six_decimal_coords": "1/8",
+      "unique_coordinates": "8/8",
+      "no_placeholder_names": "7/8"
+    },
+    "coordinate_plausibility": {
+      "inside_window": "8/8",
+      "distance_to_centre_km_min": 0.0,
+      "distance_to_centre_km_mean": 1.164,
+      "distance_to_centre_km_max": 2.606,
+      "pairwise_spread_km": 4.247
+    },
+    "anchor_hit_rate": "2/8",
+    "description_chars": {
+      "min": 136,
+      "mean": 151.6
+    },
+    "performance": {
+      "tok_per_s": 32.35,
+      "ttft_s": 0.0466,
+      "eval_count": 848
+    }
+  },
+  {
+    "file": "quality_q8_run1.json",
+    "model": "gemma4-e2b-q8",
+    "places": 8,
+    "attempts": 1,
+    "json_ok_first_attempt": true,
+    "json_ok_any_attempt": true,
+    "repairs_applied": [],
+    "instruction_following": {
+      "bilingual_both_names": "8/8",
+      "name_zh_is_chinese": "8/8",
+      "name_is_latin": "8/8",
+      "description_min_20_chars": "8/8",
+      "valid_category": "8/8",
+      "six_decimal_coords": "2/8",
+      "unique_coordinates": "8/8",
+      "no_placeholder_names": "7/8"
+    },
+    "coordinate_plausibility": {
+      "inside_window": "8/8",
+      "distance_to_centre_km_min": 0.0,
+      "distance_to_centre_km_mean": 1.396,
+      "distance_to_centre_km_max": 3.677,
+      "pairwise_spread_km": 4.471
+    },
+    "anchor_hit_rate": "3/8",
+    "description_chars": {
+      "min": 97,
+      "mean": 107.2
+    },
+    "performance": {
+      "tok_per_s": 23.99,
+      "ttft_s": 9.0649,
+      "eval_count": 852
+    }
+  },
+  {
+    "file": "quality_q8_run2.json",
+    "model": "gemma4-e2b-q8",
+    "places": 7,
+    "attempts": 1,
+    "json_ok_first_attempt": true,
+    "json_ok_any_attempt": true,
+    "repairs_applied": [],
+    "instruction_following": {
+      "bilingual_both_names": "7/7",
+      "name_zh_is_chinese": "7/7",
+      "name_is_latin": "7/7",
+      "description_min_20_chars": "7/7",
+      "valid_category": "7/7",
+      "six_decimal_coords": "0/7",
+      "unique_coordinates": "7/7",
+      "no_placeholder_names": "6/7"
+    },
+    "coordinate_plausibility": {
+      "inside_window": "7/7",
+      "distance_to_centre_km_min": 0.08,
+      "distance_to_centre_km_mean": 0.642,
+      "distance_to_centre_km_max": 1.601,
+      "pairwise_spread_km": 2.293
+    },
+    "anchor_hit_rate": "3/7",
+    "description_chars": {
+      "min": 125,
+      "mean": 137.4
+    },
+    "performance": {
+      "tok_per_s": 23.8,
+      "ttft_s": 0.1362,
+      "eval_count": 734
+    }
+  }
+]

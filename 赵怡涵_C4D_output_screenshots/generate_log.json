@@ -1,0 +1,157 @@
+{
+  "places": [
+    {
+      "name": "SIAS University",
+      "name_zh": "郑州西亚斯学院",
+      "lat": 34.4028438,
+      "lon": 113.7593507,
+      "description": "This is the central location of the university campus in Xinzheng. (坐标为我估计的位置，可能偏差数百米)",
+      "category": "university",
+      "distance_to_sias_km": 0.0,
+      "lat_model": 34.402844,
+      "lon_model": 113.759351,
+      "source": "gazetteer",
+      "anchor_name": "郑州西亚斯学院",
+      "anchor_error_m": 0.0
+    },
+    {
+      "name": "Xinzheng Railway Station",
+      "name_zh": "新郑火车站",
+      "lat": 34.4015,
+      "lon": 113.762,
+      "description": "The main railway station serving Xinzheng, crucial for regional travel and transport links.",
+      "category": "transport",
+      "distance_to_sias_km": 0.285,
+      "lat_model": 34.4015,
+      "lon_model": 113.762,
+      "source": "model"
+    },
+    {
+      "name": "Xinzheng Municipal Government Office",
+      "name_zh": "新郑市人民政府",
+      "lat": 34.3978633,
+      "lon": 113.7340052,
+      "description": "The administrative center of Xinzheng City where local governance activities take place.",
+      "category": "government",
+      "distance_to_sias_km": 2.39,
+      "lat_model": 34.404,
+      "lon_model": 113.7585,
+      "source": "gazetteer",
+      "anchor_name": "新郑市人民政府",
+      "anchor_error_m": 2348.6
+    },
+    {
+      "name": "Zhengzhou Museum",
+      "name_zh": "郑州博物馆",
+      "lat": 34.435,
+      "lon": 113.775,
+      "description": "A significant cultural institution in the nearby larger city of Zhengzhou, offering local history exhibits.",
+      "category": "museum",
+      "distance_to_sias_km": 3.853,
+      "lat_model": 34.435,
+      "lon_model": 113.775,
+      "source": "model"
+    },
+    {
+      "name": "Xinzheng Central Park",
+      "name_zh": "新郑中心公园",
+      "lat": 34.399,
+      "lon": 113.745,
+      "description": "A public green space providing recreational opportunities for the residents of Xinzheng.",
+      "category": "park",
+      "distance_to_sias_km": 1.384,
+      "lat_model": 34.399,
+      "lon_model": 113.745,
+      "source": "model"
+    },
+    {
+      "name": "Local Pharmacy Chain",
+      "name_zh": "当地连锁药店",
+      "lat": 34.4055,
+      "lon": 113.755,
+      "description": "A well-known local pharmacy chain serving the immediate community around the university area.",
+      "category": "other",
+      "distance_to_sias_km": 0.497,
+      "lat_model": 34.4055,
+      "lon_model": 113.755,
+      "source": "model"
+    },
+    {
+      "name": "Henan Provincial Hospital",
+      "name_zh": "河南省人民医院",
+      "lat": 34.418,
+      "lon": 113.78,
+      "description": "A major provincial hospital providing medical services to the Xinzheng area and surrounding districts.",
+      "category": "hospital",
+      "distance_to_sias_km": 2.535,
+      "lat_model": 34.418,
+      "lon_model": 113.78,
+      "source": "model"
+    },
+    {
+      "name": "Local Food Market Area",
+      "name_zh": "新郑美食街",
+      "lat": 34.3985,
+      "lon": 113.7505,
+      "description": "A well-known area for local cuisine and street food, popular among locals and students.",
+      "category": "food",
+      "distance_to_sias_km": 0.945,
+      "lat_model": 34.3985,
+      "lon_model": 113.7505,
+      "source": "model"
+    }
+  ],
+  "attempts": [
+    {
+      "round": 0,
+      "mode": "schema",
+      "raw_text": "{\n  \"places\": [\n    {\n      \"name\": \"SIAS University\",\n      \"name_zh\": \"郑州西亚斯学院\",\n      \"lat\": 34.402844,\n      \"lon\": 113.759351,\n      \"category\": \"university\",\n      \"description\": \"This is the central location of the university campus in Xinzheng. (坐标为我估计的位置，可能偏差数百米)\"\n    },\n    {\n      \"name\": \"Xinzheng Railway Station\",\n      \"name_zh\": \"新郑火车站\",\n      \"lat\": 34.401500,\n      \"lon\": 113.762000,\n      \"category\": \"transport\",\n      \"description\": \"The main railway station serving Xinzheng, crucial for regional travel and transport links.\"\n    },\n    {\n      \"name\": \"Xinzheng Municipal Government Office\",\n      \"name_zh\": \"新郑市人民政府\",\n      \"lat\": 34.404000,\n      \"lon\": 113.758500,\n      \"category\": \"government\",\n      \"description\": \"The administrative center of Xinzheng City where local governance activities take place.\"\n    },\n    {\n      \"name\": \"Zhengzhou Museum\",\n      \"name_zh\": \"郑州博物馆\",\n      \"lat\": 34.435000,\n      \"lon\": 113.775000,\n      \"category\": \"museum\",\n      \"description\": \"A significant cultural institution in the nearby larger city of Zhengzhou, offering local history exhibits.\"\n    },\n    {\n      \"name\": \"Xinzheng Central Park\",\n      \"name_zh\": \"新郑中心公园\",\n      \"lat\": 34.399000,\n      \"lon\": 113.745000,\n      \"category\": \"park\",\n      \"description\": \"A public green space providing recreational opportunities for the residents of Xinzheng.\"\n    },\n    {\n      \"name\": \"Local Pharmacy Chain\",\n      \"name_zh\": \"当地连锁药店\",\n      \"lat\": 34.405500,\n      \"lon\": 113.755000,\n      \"category\": \"other\",\n      \"description\": \"A well-known local pharmacy chain serving the immediate community around the university area.\"\n    },\n    {\n      \"name\": \"Henan Provincial Hospital\",\n      \"name_zh\": \"河南省人民医院\",\n      \"lat\": 34.418000,\n      \"lon\": 113.780000,\n      \"category\": \"hospital\",\n      \"description\": \"A major provincial hospital providing medical services to the Xinzheng area and surrounding districts.\"\n    },\n    {\n      \"name\": \"Local Food Market Area\",\n      \"name_zh\": \"新郑美食街\",\n      \"lat\": 34.398500,\n      \"lon\": 113.750500,\n      \"category\": \"food\",\n      \"description\": \"A well-known area for local cuisine and street food, popular among locals and students.\"\n    }\n  ]\n}",
+      "json_ok": true,
+      "json_repairs": [],
+      "places_parsed": 8,
+      "places_valid": 8,
+      "field_errors": [],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 772,
+        "prompt_eval_count": 869,
+        "tok_per_s": 17.73,
+        "prompt_tok_per_s": 258.01,
+        "ttft_s": 32.5623,
+        "wall_time_s": 76.107,
+        "load_time_s": 29.164,
+        "total_duration_s": 76.102
+      }
+    }
+  ],
+  "quality": {
+    "attempts": 1,
+    "raw_json_parse_ok_first": true,
+    "raw_json_parse_ok_any": true,
+    "repairs_used": [],
+    "schema_mode_used": "schema",
+    "places_final": 8,
+    "coord_cluster_radius_km": 3.273,
+    "coord_spread_km": 4.858,
+    "distance_to_sias_km_min": 0.0,
+    "distance_to_sias_km_max": 3.853,
+    "distance_to_sias_km_mean": 1.206,
+    "categories": [
+      "food",
+      "government",
+      "hospital",
+      "museum",
+      "other",
+      "park",
+      "transport",
+      "university"
+    ],
+    "bilingual_name_coverage": 1.0,
+    "min_description_chars": 86,
+    "grounded_count": 2,
+    "model_only_count": 6,
+    "anchor_error_m_mean": 1174.3,
+    "anchor_error_m_max": 2348.6
+  },
+  "model": "gemma4-e2b-q4km"
+}

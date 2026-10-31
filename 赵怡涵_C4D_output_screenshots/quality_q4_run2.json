@@ -1,0 +1,124 @@
+{
+  "places": [
+    {
+      "name": "SIAS University",
+      "name_zh": "西亚斯学院",
+      "lat": 34.402844,
+      "lon": 113.759351,
+      "description": "This is the central institution, SIAS University, which is the focus of the search area. (Coordinates are the approximate centre of the university campus).",
+      "category": "university",
+      "distance_to_sias_km": 0.0
+    },
+    {
+      "name": "Xinzheng Railway Station",
+      "name_zh": "新郑火车站",
+      "lat": 34.415,
+      "lon": 113.78,
+      "description": "The main railway station in Xinzheng, serving as a major transport hub for the region. (Coordinates are estimated based on the main station location).",
+      "category": "transport",
+      "distance_to_sias_km": 2.327
+    },
+    {
+      "name": "Xinzheng Museum",
+      "name_zh": "新郑博物馆",
+      "lat": 34.39,
+      "lon": 113.745,
+      "description": "A local museum in Xinzheng that preserves the cultural history and artifacts of the area. (Coordinates are an estimate for a known local cultural site).",
+      "category": "museum",
+      "distance_to_sias_km": 1.943
+    },
+    {
+      "name": "Zhengzhou City Government Office",
+      "name_zh": "郑州市政府",
+      "lat": 34.4,
+      "lon": 113.765,
+      "description": "The administrative center of Xinzheng City, housing local government functions. (Coordinates are estimated for the city administration area).",
+      "category": "government",
+      "distance_to_sias_km": 0.607
+    },
+    {
+      "name": "Li River Park",
+      "name_zh": "漓江公园",
+      "lat": 34.42,
+      "lon": 113.74,
+      "description": "A significant green space along the Li River, offering recreational opportunities to the local population. (Coordinates are an estimate near a river park area).",
+      "category": "park",
+      "distance_to_sias_km": 2.606
+    },
+    {
+      "name": "Local Pharmacy Chain",
+      "name_zh": "当地连锁药店",
+      "lat": 34.405,
+      "lon": 113.76,
+      "description": "A well-known local pharmacy chain often found near major roads in the area. (Coordinates are an estimate for a typical commercial area).",
+      "category": "food",
+      "distance_to_sias_km": 0.247
+    },
+    {
+      "name": "Henan Provincial Museum",
+      "name_zh": "河南省博物馆",
+      "lat": 34.408,
+      "lon": 113.77,
+      "description": "A provincial-level museum showcasing the broader history and culture of Henan Province. (Coordinates are estimated for a major provincial museum location).",
+      "category": "museum",
+      "distance_to_sias_km": 1.133
+    },
+    {
+      "name": "Xinzheng Commercial Street",
+      "name_zh": "新郑商业街",
+      "lat": 34.401,
+      "lon": 113.755,
+      "description": "A busy commercial street where local vendors and shops are concentrated, popular for local commerce. (Coordinates are estimated for a main commercial thoroughfare).",
+      "category": "shopping",
+      "distance_to_sias_km": 0.449
+    }
+  ],
+  "attempts": [
+    {
+      "round": 0,
+      "mode": "schema",
+      "raw_text": "{\n  \"places\": [\n    {\n      \"name\": \"SIAS University\",\n      \"name_zh\": \"西亚斯学院\",\n      \"lat\": 34.402844,\n      \"lon\": 113.759351,\n      \"category\": \"university\",\n      \"description\": \"This is the central institution, SIAS University, which is the focus of the search area. (Coordinates are the approximate centre of the university campus).\"\n    },\n    {\n      \"name\": \"Xinzheng Railway Station\",\n      \"name_zh\": \"新郑火车站\",\n      \"lat\": 34.415000,\n      \"lon\": 113.780000,\n      \"category\": \"transport\",\n      \"description\": \"The main railway station in Xinzheng, serving as a major transport hub for the region. (Coordinates are estimated based on the main station location).\"\n    },\n    {\n      \"name\": \"Xinzheng Museum\",\n      \"name_zh\": \"新郑博物馆\",\n      \"lat\": 34.390000,\n      \"lon\": 113.745000,\n      \"category\": \"museum\",\n      \"description\": \"A local museum in Xinzheng that preserves the cultural history and artifacts of the area. (Coordinates are an estimate for a known local cultural site).\"\n    },\n    {\n      \"name\": \"Zhengzhou City Government Office\",\n      \"name_zh\": \"郑州市政府\",\n      \"lat\": 34.400000,\n      \"lon\": 113.765000,\n      \"category\": \"government\",\n      \"description\": \"The administrative center of Xinzheng City, housing local government functions. (Coordinates are estimated for the city administration area).\"\n    },\n    {\n      \"name\": \"Li River Park\",\n      \"name_zh\": \"漓江公园\",\n      \"lat\": 34.420000,\n      \"lon\": 113.740000,\n      \"category\": \"park\",\n      \"description\": \"A significant green space along the Li River, offering recreational opportunities to the local population. (Coordinates are an estimate near a river park area).\"\n    },\n    {\n      \"name\": \"Local Pharmacy Chain\",\n      \"name_zh\": \"当地连锁药店\",\n      \"lat\": 34.405000,\n      \"lon\": 113.760000,\n      \"category\": \"food\",\n      \"description\": \"A well-known local pharmacy chain often found near major roads in the area. (Coordinates are an estimate for a typical commercial area).\"\n    },\n    {\n      \"name\": \"Henan Provincial Museum\",\n      \"name_zh\": \"河南省博物馆\",\n      \"lat\": 34.408000,\n      \"lon\": 113.770000,\n      \"category\": \"museum\",\n      \"description\": \"A provincial-level museum showcasing the broader history and culture of Henan Province. (Coordinates are estimated for a major provincial museum location).\"\n    },\n    {\n      \"name\": \"Xinzheng Commercial Street\",\n      \"name_zh\": \"新郑商业街\",\n      \"lat\": 34.401000,\n      \"lon\": 113.755000,\n      \"category\": \"shopping\",\n      \"description\": \"A busy commercial street where local vendors and shops are concentrated, popular for local commerce. (Coordinates are estimated for a main commercial thoroughfare).\"\n    }\n  ]\n}",
+      "json_ok": true,
+      "json_repairs": [],
+      "places_parsed": 8,
+      "places_valid": 8,
+      "field_errors": [],
+      "metrics": {
+        "model": "gemma4-e2b-q4km",
+        "eval_count": 848,
+        "prompt_eval_count": 869,
+        "tok_per_s": 32.35,
+        "prompt_tok_per_s": 27033.75,
+        "ttft_s": 0.0466,
+        "wall_time_s": 26.258,
+        "load_time_s": 0.004,
+        "total_duration_s": 26.257
+      }
+    }
+  ],
+  "quality": {
+    "attempts": 1,
+    "raw_json_parse_ok_first": true,
+    "raw_json_parse_ok_any": true,
+    "repairs_used": [],
+    "schema_mode_used": "schema",
+    "places_final": 8,
+    "coord_cluster_radius_km": 2.414,
+    "coord_spread_km": 4.247,
+    "distance_to_sias_km_min": 0.0,
+    "distance_to_sias_km_max": 2.606,
+    "distance_to_sias_km_mean": 1.164,
+    "categories": [
+      "food",
+      "government",
+      "museum",
+      "park",
+      "shopping",
+      "transport",
+      "university"
+    ],
+    "bilingual_name_coverage": 1.0,
+    "min_description_chars": 136
+  },
+  "model": "gemma4-e2b-q4km"
+}
